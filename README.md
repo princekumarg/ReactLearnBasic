@@ -39,3 +39,6 @@ React is a popular JavaScript library for building user interfaces (UIs) in web 
 16. **Testing:** React applications can be tested using tools like Jest and React Testing Library for unit testing, integration testing, and end-to-end testing to ensure code quality and functionality.
 
 17. **React Native:** React Native extends React for mobile app development, allowing developers to build cross-platform native mobile apps using JavaScript and React components.
+
+# Interview question
+
