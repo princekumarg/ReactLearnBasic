@@ -1,7 +1,7 @@
 import React,{useState,useEffect} from 'react'
 import Tours from './Tours'
 import './tour.css'
-const urls='https://course-api.com/react-tours-project'
+const url='https://course-api.com/react-tours-project/'
 function TourApp() {
     
     const [loading, setLoading] = useState(true)
@@ -15,7 +15,7 @@ function TourApp() {
     const fetchTours = async () => {
       setLoading(true)
       try {
-        const response = await fetch(urls)
+        const response = await fetch(url)
         const tours = await response.json()
         console.log(tours)
         setLoading(false)
