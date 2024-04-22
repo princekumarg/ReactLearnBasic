@@ -1,11 +1,13 @@
 import React from 'react'
-import Alternative from './Alternative'
+import Navbar from './Navbar'
+import './navbar.css'
 
 function NavbarApp() {
   return (
     <>
       {/* <Alternative></Alternative> */}
-      <NavbarApp></NavbarApp>
+      <Navbar></Navbar>
+
     </>
   )
 }

@@ -4,7 +4,7 @@ import './tour.css'
 const url='https://course-api.com/react-tours-project/'
 function TourApp() {
     
-    const [loading, setLoading] = useState(true)
+    const [loading, setLoading] = useState(false)
     const [tours, setTours] = useState([])
   
     const removeTour = (id) => {
