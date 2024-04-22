@@ -30,21 +30,21 @@ export const social = [
   {
     id: 1,
     url: 'https://www.twitter.com',
-    img: './twitter.png',
+    img: 'https://e7.pngegg.com/pngimages/708/311/png-clipart-twitter-twitter-thumbnail.png',
   },
   {
     id: 2,
     url: 'https://www.facebook.com',
-    img: './facebook.png',
+    img: 'https://i.pinimg.com/736x/42/75/49/427549f6f22470ff93ca714479d180c2.jpg',
   },
   {
     id: 3,
     url: 'https://www.github.com',
-    img: './github.png',
+    img: 'https://cdn.icon-icons.com/icons2/2351/PNG/512/logo_github_icon_143196.png',
   },
   {
     id: 4,
     url: 'https://www.discord.com',
-    img: './discord.png',
+    img: 'https://w7.pngwing.com/pngs/842/992/png-transparent-discord-computer-servers-teamspeak-discord-icon-video-game-smiley-online-chat-thumbnail.png',
   },
 ];

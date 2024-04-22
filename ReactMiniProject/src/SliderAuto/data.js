@@ -1,3 +1,4 @@
+
 const people = [
     {
       id: 1,
@@ -34,3 +35,4 @@ const people = [
   ];
   
   export default people;
+  

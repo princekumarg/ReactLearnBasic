@@ -1,33 +1,34 @@
 import React,{useState,useEffect} from 'react'
 import Tours from './Tours'
 import './tour.css'
-const url='https://course-api.com/react-tours-project/'
+import tourData from './data'
 function TourApp() {
     
     const [loading, setLoading] = useState(false)
     const [tours, setTours] = useState([])
   
-    const removeTour = (id) => {
-      const newTours = tours.filter((tour) => tour.id !== id)
-      setTours(newTours)
-    }
-  
-    const fetchTours = async () => {
-      setLoading(true)
-      try {
-        const response = await fetch(url)
-        const tours = await response.json()
-        console.log(tours)
-        setLoading(false)
-        setTours(tours)
-      } catch (error) {
-        setLoading(false)
-        console.log(error)
-      }
-    }
     useEffect(() => {
-      fetchTours()
-    }, [])
+      setLoading(true);
+      // Simulating fetching data from an API with setTimeout
+      setTimeout(() => {
+        setTours(tourData); // Set the fetched tours data
+        setLoading(false);
+      }, 1000); // Simulated delay of 1 second
+    }, []);
+  
+    const removeTour = (id) => {
+      const newTours = tours.filter((tour) => tour.id !== id);
+      setTours(newTours);
+    };
+  
+    const fetchTours = () => {
+      setLoading(true);
+      // Simulating fetching data from an API with setTimeout
+      setTimeout(() => {
+        setTours(tourData); // Set the fetched tours data
+        setLoading(false);
+      }, 1000); // Simulated delay of 1 second
+    };
     if (loading) {
       return (
         <main>
