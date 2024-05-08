@@ -185,6 +185,12 @@
     border: none;
     margin: 0 0.5rem;
     font-size: 1.25rem;
+    background-color: white;
+  }
+  .btn{
+    background-color: aqua;
+    color: blue;
+    border: 1px solid blue;
   }
   button {
     background: var(--clr-primary-10);

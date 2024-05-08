@@ -1,5 +1,5 @@
-import WorkIm from '../assets/projects/workImg.jpeg'
-import RealEst from '../assets/projects/realestate.jpg'
+import WorkIm from './../assets/Projects/workImg.jpeg'
+import RealEst from './../assets/Projects/realestate.jpg'
 
 const data=[
     {
