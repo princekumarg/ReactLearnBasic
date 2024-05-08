@@ -7,7 +7,12 @@ import Review from './Review/Review'
 import TabsAPP from './TabsAPP/TabsAPP'
 import TourApp from './TourApp/TourApp'
 import NavbarApp from './Navbar/NavbarApp'
+import CounterApp from './Counter/CounterApp'
+import EmailAndPassword from './EmailAndPassword/EmailAndPassword'
+import SingleApp from './SinglePage/SingleApp'
+
 // import SliderApp from './SliderAuto/SliderApp'
+// import BackgroundChanger from './BackgroundChanger/BackgroundChanger'
 function App() {
 
   return (
@@ -22,6 +27,10 @@ function App() {
       <ListAddApp/>
       
       <NavbarApp/> 
+      <CounterApp/>
+      <EmailAndPassword/>
+      <SingleApp/>
+      {/* <BackgroundChanger/> */}
       {/* <SliderApp/> */}
       
     </div>
