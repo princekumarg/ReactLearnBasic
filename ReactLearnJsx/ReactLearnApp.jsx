@@ -1,12 +1,12 @@
-import React from "react"
-import { Learnjsx } from "./assets/Component/learnjsx"
+import React from 'react'
+import { Learnjsx } from "./assets/Component/Learnjsx"
 import { Learncomp } from "./assets/Component/Learncomp"
 import { Learnprops } from "./assets/Component/Learnprops";
 import LearnLiftingSetup from "./assets/Component/LearnLiftingSetup";
 import LearnState from "./assets/Component/LearnState";
 import CounterApp from "./assets/Component/CounterApp";
 import LearnuseState from "./assets/Component/LearnuseState";
-function App() {
+function ReactLearnApp() {
   let price=10;
   const getData=(data)=>{
     console.log(data);
@@ -25,4 +25,4 @@ function App() {
   )
 }
 
-export default App
+export default ReactLearnApp
